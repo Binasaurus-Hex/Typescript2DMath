@@ -2,11 +2,11 @@ export class Vector2 {
 
     constructor(public x: number, public y: number){}
   
-    public static fromArray(array: number[]): Vector2 {
+    public static from_array(array: number[]): Vector2 {
       return new Vector2(array[0],array[1]);
     }
   
-    public toArray(): number[] {
+    public to_array(): number[] {
       return [this.x,this.y];
     }
   
